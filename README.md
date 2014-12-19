@@ -1,10 +1,17 @@
-[![DOI](https://zenodo.org/badge/3676/maxheld83/keyneson-data.png)](http://dx.doi.org/10.5281/zenodo.12578)
+> The ideas of economists and political philosophers, both when they are right and when they are wrong are more powerful than is commonly understood.
+> Indeed, the world is ruled by little else.
+> Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually slaves of some defunct economist.
+>
+> John Maynard Keynes
 
-This is just a *submodule* to the *supermodule* [`keyneson`](https://github.com/maxheld83/keyneson), to simplify independent version tracking.
+This repository houses a q-study on taxation and the economy.
 
-For docs, context, issues, etc. please go to [`keyneson`](https://github.com/maxheld83/keyneson).
+It was first developed for, and used as part of [Maximilian Held's](http://www.maxheld.de) [dissertation](http://www.maxheld.de/schumpeter) on taxation and democracy, and was administered before and after [Civicon](http://www.civicon.de) Citizen Conferences on the topic.
 
-Please also note that the contents of this submodule make sense **only in relation to specific versions of other sub- and supermodules**.
-These necessary pointers to versions of other modules are included both in the releases on this repo, as well as in the supermodule [`keyneson`](https://github.com/maxheld83/keyneson).
+Any given iteration of this study is defined by pointers to (versions of) of three submodules:
 
-In other words: Please move on, nothing to watch here.
+1. `keyneson-concourse`, the complete set of q items
+2. `keyneson-sample`, the sampling method or structure by which to sample from 1)
+3. `keyneson-data`, the raw data gathered by q-sorts as per 1) and 2).
+
+Further analyses can be found in here.
