@@ -1,7 +1,6 @@
 > The ideas of economists and political philosophers, both when they are right and when they are wrong are more powerful than is commonly understood.
 > Indeed, the world is ruled by little else.
-> Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually slaves of some defunct economist.
->
+> Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually slaves of some defunct economist.  
 > John Maynard Keynes
 
 This repository houses a q-study on taxation and the economy.
