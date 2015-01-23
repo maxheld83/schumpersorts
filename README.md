@@ -1,16 +1,23 @@
-> The ideas of economists and political philosophers, both when they are right and when they are wrong are more powerful than is commonly understood.
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.12678.svg)](http://dx.doi.org/10.5281/zenodo.12678)
+
+> "The ideas of economists and political philosophers, both when they are right and when they are wrong are more powerful than is commonly understood.
 > Indeed, the world is ruled by little else.
-> Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually slaves of some defunct economist.  
-> John Maynard Keynes
+> Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually slaves of some defunct economist."
+> --- John Maynard Keynes
 
-This repository houses a q-study on taxation and the economy.
+This repository houses a **Q-study** on taxation and the economy.
 
-It was first developed for, and used as part of [Maximilian Held's](http://www.maxheld.de) [dissertation](http://www.maxheld.de/schumpeter) on taxation and democracy, and was administered before and after [Civicon](http://www.civicon.de) Citizen Conferences on the topic.
+It was first developed for, and used as part of [Maximilian Held's](http://www.maxheld.de) [dissertation](http://www.maxheld.de/schumpermas) on taxation and democracy, and was administered before and after [Civicon](http://www.civicon.de) Citizen Conferences on the topic.
 
-Any given iteration of this study is defined by pointers to (versions of) of three submodules:
+To learn how to cite this, click [here](https://zenodo.org/record/12678#.VMK2g8ajLy8).
 
-1. `keyneson-concourse`, the complete set of q items
-2. `keyneson-sample`, the sampling method or structure by which to sample from 1)
-3. `keyneson-data`, the raw data gathered by q-sorts as per 1) and 2).
+------------
 
-Further analyses can be found in here.
+Any given iteration of this study is defined by pointers to (versions of) several nested git submodules, to allow for independent versioning:
+
+- **[`keyneson`](https://github.com/maxheld83/keyneson):** The **Q study**, including q sorts and item feedback from/by participants.
+  -  [`wiki.keyneson`](https://github.com/maxheld83/keyneson/wiki): Meta information on the study, especially the *condition of instruction*.
+  -  [`keyneson-sample`](https://github.com/maxheld83/keyneson-sample): The *Q sample of items* (or subset) from a concourse, as used in any given q study.
+    - [`wiki.keyneson-sample`](https://github.com/maxheld83/keyneson-sample/wiki): Meta information on the sample, especially the *sampling structure* or other method.
+    - [`keyneson-concourse`](https://github.com/maxheld83/keyneson-concourse): The *concourse*, or sum of things that could be said about the research subject, from which a sample is drawn.
+      - [`wiki.keyneson-concourse`](https://github.com/maxheld83/keyneson-concourse/wiki): Meta information on the concourse, such as its *sources* or gathering methods.
