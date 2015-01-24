@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/3676/maxheld83/keyneson.svg)](http://dx.doi.org/10.5072/zenodo.12678) <- Click here for citation.
+[![DOI](https://zenodo.org/badge/3676/maxheld83/keyneson.svg)](http://dx.doi.org/10.5281/zenodo.14295) <- Click here for citation.
 
 > "The ideas of economists and political philosophers, both when they are right and when they are wrong are more powerful than is commonly understood.
 > Indeed, the world is ruled by little else.
